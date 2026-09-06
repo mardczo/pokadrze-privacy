@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Polityka prywatności i usuwanie konta – PoKadrze</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #222;
+      background: #f7f7f7;
+    }
+
+    main {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      margin-top: 32px;
+    }
+
+    .date {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .account-delete {
+      background: #f1f8f8;
+      border-left: 4px solid #168C8A;
+      padding: 18px 22px;
+      border-radius: 10px;
+    }
+
+    a {
+      color: #168C8A;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 24px;
+      }
+
+      body {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<main>
+
+<h1>Polityka prywatności aplikacji PoKadrze</h1>
+
+<p class="date">
+Data ostatniej aktualizacji: 6 września 2026 r.
+</p>
+
+
+<h2>1. Informacje ogólne</h2>
+
+<p>
+Niniejsza Polityka Prywatności określa zasady przetwarzania danych
+w aplikacji mobilnej
+<strong>PoKadrze – Menedżer dla fotografów</strong>.
+</p>
+
+<p>
+Aplikacja służy do organizacji pracy fotografa, w szczególności
+zarządzania klientami, sesjami fotograficznymi, terminami,
+płatnościami, finansami oraz innymi informacjami związanymi
+z prowadzeniem działalności fotograficznej.
+</p>
+
+<p>
+Twórca aplikacji i kontakt w sprawach dotyczących prywatności:<br>
+<strong>Marcin Gacek</strong><br>
+Polska<br>
+E-mail:
+<a href="mailto:pokadrzekontakt@wp.pl">
+pokadrzekontakt@wp.pl
+</a>
+</p>
+
+
+<h2>2. Dane wprowadzane do aplikacji</h2>
+
+<p>
+PoKadrze umożliwia użytkownikowi samodzielne wprowadzanie informacji
+związanych z organizacją jego pracy, w tym między innymi:
+</p>
+
+<ul>
+  <li>danych klientów i danych kontaktowych klientów,</li>
+  <li>informacji dotyczących sesji fotograficznych, terminów i lokalizacji,</li>
+  <li>informacji dotyczących cen, zadatków, płatności i finansów,</li>
+  <li>notatek oraz innych informacji wprowadzanych przez użytkownika.</li>
+</ul>
+
+<p>
+Podstawowe dane organizacyjne są przechowywane lokalnie na urządzeniu
+użytkownika, o ile dana funkcja nie wymaga komunikacji z usługą
+internetową.
+</p>
+
+<p>
+Użytkownik odpowiada za zgodne z prawem wprowadzanie i przetwarzanie
+danych swoich klientów oraz innych osób.
+</p>
+
+
+<h2>3. Konto użytkownika i logowanie</h2>
+
+<p>
+PoKadrze umożliwia utworzenie konta i logowanie przy użyciu adresu
+e-mail i hasła oraz logowanie za pomocą konta Google.
+</p>
+
+<p>
+Do obsługi kont aplikacja korzysta z
+<strong>Firebase Authentication</strong>.
+W zależności od wybranej metody logowania mogą być przetwarzane dane
+takie jak adres e-mail, identyfikator konta użytkownika, informacja
+o sposobie logowania oraz informacje niezbędne do uwierzytelnienia
+i zabezpieczenia konta.
+</p>
+
+<p>
+Przy logowaniu przez Google dane uwierzytelniające są obsługiwane
+również przez usługi Google.
+</p>
+
+<p>
+W przypadku rejestracji za pomocą adresu e-mail aplikacja może
+wymagać potwierdzenia adresu e-mail.
+</p>
+
+
+<h2>4. Firebase, Firestore i program testerów</h2>
+
+<p>
+Aplikacja korzysta z usług Google Firebase, w tym
+Firebase Authentication, Cloud Firestore oraz Cloud Functions,
+w celu obsługi wybranych funkcji internetowych.
+</p>
+
+<p>
+Cloud Firestore i Cloud Functions są wykorzystywane między innymi
+do obsługi programu testerów.
+</p>
+
+<p>
+W tym celu mogą być przechowywane techniczne informacje o koncie,
+takie jak identyfikator użytkownika, status przydzielenia dostępu
+testera, data rozpoczęcia i zakończenia dostępu oraz informacja
+potrzebna do ustalenia, czy konto brało już udział w programie.
+</p>
+
+<p>
+Informacje te służą do przydzielania ograniczonej liczby miejsc
+testowych, określania okresu dostępu oraz zapobiegania ponownemu
+wykorzystaniu tego samego miejsca.
+</p>
+
+
+<h2>5. Opinie, sugestie i zgłoszenia problemów</h2>
+
+<p>
+Jeżeli użytkownik dobrowolnie korzysta z funkcji przesłania opinii,
+sugestii lub zgłoszenia problemu, treść zgłoszenia jest przesyłana
+do Cloud Firestore w celu analizy zgłoszenia, rozwiązania problemu
+oraz rozwoju PoKadrze.
+</p>
+
+
+<h2>6. Dane przechowywane lokalnie i kopie danych</h2>
+
+<p>
+Podstawowe informacje dotyczące klientów, sesji, płatności,
+finansów oraz ustawień aplikacji mogą być przechowywane lokalnie
+na urządzeniu użytkownika.
+</p>
+
+<p>
+Aplikacja umożliwia również korzystanie z funkcji kopii danych.
+Użytkownik odpowiada za odpowiednie zabezpieczenie utworzonych
+kopii oraz miejsca, w którym zostaną zapisane.
+</p>
+
+
+<h2>7. Powiadomienia</h2>
+
+<p>
+PoKadrze może korzystać z lokalnych powiadomień w celu przypominania
+między innymi o sesjach, terminach, zdjęciach do oddania lub
+brakujących informacjach.
+</p>
+
+<p>
+Korzystanie z powiadomień może wymagać odpowiedniego uprawnienia
+systemowego.
+</p>
+
+
+<h2>8. Udostępnianie i sprzedaż danych</h2>
+
+<p>
+Twórca PoKadrze nie sprzedaje danych osobowych użytkowników.
+</p>
+
+<p>
+Dane mogą być przetwarzane przez dostawców usług technicznych
+niezbędnych do działania określonych funkcji aplikacji,
+w szczególności przez Google w związku z wykorzystaniem usług
+Firebase i logowania Google.
+</p>
+
+
+<h2 id="usun-konto">9. Usuwanie konta i danych</h2>
+
+<div class="account-delete">
+
+<h3>Jak usunąć konto PoKadrze?</h3>
+
+<p>
+Użytkownik może usunąć swoje konto bezpośrednio w aplikacji:
+</p>
+
+<ol>
+  <li>
+    Zaloguj się do aplikacji <strong>PoKadrze</strong>.
+  </li>
+
+  <li>
+    Przejdź do sekcji <strong>Ustawienia → Konto</strong>.
+  </li>
+
+  <li>
+    Wybierz <strong>Usuń konto</strong>.
+  </li>
+
+  <li>
+    Potwierdź operację. W zależności od metody logowania może być
+    wymagane ponowne uwierzytelnienie.
+  </li>
+</ol>
+
+<p>
+Jeżeli nie masz dostępu do aplikacji lub wystąpi problem
+z usunięciem konta, skontaktuj się z nami:
+<a href="mailto:pokadrzekontakt@wp.pl">
+pokadrzekontakt@wp.pl
+</a>.
+</p>
+
+</div>
+
+<p>
+Usunięcie konta powoduje usunięcie konta użytkownika z
+Firebase Authentication oraz powiązanych danych konta
+przechowywanych online w Cloud Firestore.
+</p>
+
+<p>
+Jeżeli użytkownik uczestniczył w programie TESTER, dane związane
+z jego udziałem w programie są usuwane, a zajmowane miejsce testowe
+zostaje zwolnione.
+</p>
+
+<p>
+Dane przechowywane lokalnie na urządzeniu nie są automatycznie
+usuwane wraz z kontem i mogą pozostać na urządzeniu do czasu
+wyczyszczenia danych aplikacji lub jej odinstalowania.
+</p>
+
+<p>
+Zewnętrzna strona z informacjami o usuwaniu konta jest dostępna tutaj:
+<a href="./usun-konto.html">Usuwanie konta – PoKadrze</a>.
+</p>
+
+<p>
+Zgłoszenia opinii, sugestii i problemów mogą być przechowywane przez
+okres potrzebny do analizy zgłoszenia, rozwiązania problemu,
+rozwoju aplikacji lub zapewnienia bezpieczeństwa usługi.
+</p>
+
+
+<h2>10. Okres przechowywania danych</h2>
+
+<p>
+Dane lokalne pozostają na urządzeniu do czasu ich usunięcia przez
+użytkownika, wyczyszczenia danych aplikacji lub odinstalowania
+aplikacji, z zastrzeżeniem kopii utworzonych przez użytkownika.
+</p>
+
+<p>
+Dane związane z kontem są przechowywane przez okres korzystania
+z konta. Po usunięciu konta powiązane dane konta przechowywane online
+są usuwane, z wyjątkiem informacji, których dalsze zachowanie może być
+wymagane przez obowiązki prawne lub uzasadnione względami bezpieczeństwa.
+</p>
+
+
+<h2>11. Bezpieczeństwo</h2>
+
+<p>
+Twórca aplikacji podejmuje rozsądne środki mające na celu ochronę
+danych przetwarzanych w związku z działaniem PoKadrze.
+</p>
+
+<p>
+Użytkownik powinien odpowiednio zabezpieczyć swoje urządzenie,
+konto oraz tworzone kopie danych.
+</p>
+
+
+<h2>12. Usługi Google</h2>
+
+<p>
+Usługi Firebase i logowanie Google są dostarczane przez Google.
+Google może przetwarzać informacje techniczne niezbędne do
+świadczenia, zabezpieczenia i utrzymania tych usług zgodnie
+z własnymi zasadami prywatności.
+</p>
+
+
+<h2>13. Zmiany Polityki Prywatności</h2>
+
+<p>
+Polityka Prywatności może być aktualizowana w związku z rozwojem
+aplikacji, zmianami jej funkcjonalności, wykorzystywanych usług
+lub obowiązujących wymagań.
+</p>
+
+<p>
+Aktualna wersja Polityki Prywatności będzie dostępna pod publicznym
+adresem internetowym oraz z poziomu aplikacji PoKadrze.
+</p>
+
+
+<h2>14. Kontakt</h2>
+
+<p>
+<strong>PoKadrze – Menedżer dla fotografów</strong><br>
+Marcin Gacek<br>
+Polska<br>
+E-mail:
+<a href="mailto:pokadrzekontakt@wp.pl">
+pokadrzekontakt@wp.pl
+</a>
+</p>
+
+
+</main>
+
+</body>
+</html>
